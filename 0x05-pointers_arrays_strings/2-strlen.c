@@ -12,5 +12,5 @@ incrementation = 0;
 for (sum = 0; s[sum] != '\0'; sum++)
 incrementation++;
 
-return (inc);
+return (incrementation);
 }
