@@ -12,9 +12,9 @@ char *_strcat(char *dest, char *src)
 {
 int x, y;
 
-c = 0;
-while (dest[c])
-	c++;
+x = 0;
+while (dest[x])
+	x++;
 for (y = 0; src[y] ; y++ )
 	dest[c++] = src[y];
 return (dest);
