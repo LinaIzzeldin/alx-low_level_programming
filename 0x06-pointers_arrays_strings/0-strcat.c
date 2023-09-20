@@ -16,6 +16,6 @@ x = 0;
 while (dest[x])
 	x++;
 for (y = 0; src[y] ; y++ )
-	dest[c++] = src[y];
+	dest[x++] = src[y];
 return (dest);
 }
