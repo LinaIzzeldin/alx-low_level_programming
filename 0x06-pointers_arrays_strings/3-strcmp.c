@@ -17,10 +17,12 @@ int _strcmp(char *s1, char *s2)
 	while (*s1)
 	{
 		if (*s1 != *s2)
+		{
 			difference = ((int)*s1 - 48) - ((int)*s2 - 48) ;
-		else 
-			s1++;
-			s2++;
+	      	 	break;	
+		}
+		s1++;
+		s2++;
 	}
 	return (difference);
 }
