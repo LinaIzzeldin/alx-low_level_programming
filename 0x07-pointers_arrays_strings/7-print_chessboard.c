@@ -11,15 +11,15 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int k, l;
-	int x = sizeof(*a) / sizeof(*a[0]);
+	int i, j;
+	int aLen = sizeof(*a) / sizeof(*a[0]);
 
-	for (k = 0; k < x; k++)
+	for (i = 0; i < aLen; i++)
 	{
-		for (l = 0; l < x; l++)
+		for (j = 0; j < aLen; j++)
 		{
-			_putchar(a[k][l]);
+			_putchar(a[i][j]);
 		}
 		_putchar('\n');
 	}
-}
+}}
