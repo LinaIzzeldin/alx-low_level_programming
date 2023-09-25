@@ -8,16 +8,11 @@
 * @c: charater
 * Return: pointer to the first occurrence
 */
+
 char *_strchr(char *s, char c)
 {
-	int x;
+	char *x;
 
-	for (x = 0; x < strlen(s); x++)
-	{
-		if (s[x] == c)
-		{
-			return (s + x);
-		}
-	}
-	return ('\0');
+	x = strchr(s, c);
+	return (x);
 }
